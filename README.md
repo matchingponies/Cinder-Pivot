@@ -6,7 +6,7 @@ A multitouch UI and recognition library for Cinder. Released under the Simplifie
 
 - - - - - - - - - - - - - - - - - - -
 
-http://www.chrismckenzie.com/portfolio
+http://www.chrismckenzie.com/portfolio  
 http://www.libcinder.org
 
 chris@chrismckenzie.com
