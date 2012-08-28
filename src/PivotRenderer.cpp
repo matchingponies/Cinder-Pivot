@@ -202,13 +202,13 @@ namespace Pivot {
 			// /////////////////////////////////////////////////////////////////////////////////////////////////////
 			gl::translate( touchPivot.getPos() );
 			gl::rotate( Vec3f( 0, 0, ( touchPivot.getRot()*180.0f ) / M_PI ) );
-			for ( int i = 0; i < 5; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
+			for ( int i = 0; i < 25; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
 			gl::rotate( Vec3f( 0, 0, 90 ) );
-			for ( int i = 0; i < 5; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
+			for ( int i = 0; i < 25; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
 			gl::rotate( Vec3f( 0, 0, 90 ) );
-			for ( int i = 0; i < 5; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
+			for ( int i = 0; i < 25; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
 			gl::rotate( Vec3f( 0, 0, 90 ) );
-			for ( int i = 0; i < 5; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
+			for ( int i = 0; i < 25; ++i) gl::drawLine( Vec2f( i*10.0f*touchPivot.getScale(), 0.0f ), Vec2f( (i*10.0f + 4)*touchPivot.getScale(), 0.0f ) );
 			gl::popMatrices();
 			
 			

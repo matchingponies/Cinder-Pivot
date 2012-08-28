@@ -1,3 +1,10 @@
+
+/*
+ This code is designed for use with the Cinder C++ library, http://libcinder.org
+ 
+ Earthquake sample code repurposed by permssion from Robert Hodgin.
+*/
+
 #include "AppTouch.h"
 
 #include "Earth.h"
@@ -68,7 +75,7 @@ public:
 void EarthTrackballApp::prepareSettings( Settings *settings )
 {
 	//settings->setWindowSize( 1920, 1080 );
-    settings->setWindowSize( 1650, 900 );
+    settings->setWindowSize( 1280, 720 );
 	settings->setFrameRate( 60.0f );
 	settings->enableMultiTouch();
 	//settings->setResizable( true );

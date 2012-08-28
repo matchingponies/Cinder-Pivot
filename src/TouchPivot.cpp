@@ -328,10 +328,10 @@ namespace Pivot {
 	// TODO: remove this when things are in a better state
 	void TouchPivot::draw()
 	{
-//		gl::drawStrokedRect( Rectf( -10, -10, 10, 10) + mNode1 );
-//		gl::drawStrokedRect( Rectf( -10, -10, 10, 10) + mNode2 );
-//		gl::drawLine( mNode1, mNode2 );
-//		gl::drawLine( mResetNode1, mResetNode2 );
+		gl::drawStrokedRect( Rectf( -10, -10, 10, 10) + mNode1 );
+		gl::drawStrokedRect( Rectf( -10, -10, 10, 10) + mNode2 );
+		gl::drawLine( mNode1, mNode2 );
+		gl::drawLine( mResetNode1, mResetNode2 );
 	}
 	
 	

@@ -92,7 +92,7 @@ void BasicTrackballDemoApp::setup()
 	
 	mDrawTouches = mDrawPivot = mDrawObjects = mInteractObjects = true;
     
-    //mDrawObjects = mInteractObjects = false; // temp
+    mDrawObjects = mInteractObjects = false; // temp
 }
 
 
@@ -159,7 +159,6 @@ void BasicTrackballDemoApp::touchesEnded( TouchEvent event )
 
 void BasicTrackballDemoApp::touchesCancelled( TouchEvent event )
 {
-    console() << "touchesCancelled" << endl;
     Pivot::TouchList touchesList = Pivot::toList( event.getTouches() );
     
     if ( mInteractObjects ) {
